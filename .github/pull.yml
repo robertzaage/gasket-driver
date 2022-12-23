@@ -1,0 +1,12 @@
+version: "1"
+rules:
+  - base: main
+    upstream: google:main
+    mergeMethod: merge
+    mergeUnstable: false
+    assignees:
+      - robertzaage
+    reviewers:
+      - robertzaage
+    conflictReviewers:
+      - robertzaage
